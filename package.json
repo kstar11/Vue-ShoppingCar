@@ -1,0 +1,28 @@
+{
+  "name": "vue-shoppingcar",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "commit": "git-cz"
+  },
+  "config": {
+    "commitizen": {
+      "path": "node_modules/cz-customizable"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kstar11/Vue-ShoppingCar.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kstar11/Vue-ShoppingCar/issues"
+  },
+  "homepage": "https://github.com/kstar11/Vue-ShoppingCar#readme",
+  "devDependencies": {
+    "commitlint-config-cz": "^0.13.2",
+    "cz-customizable": "^6.3.0"
+  }
+}
