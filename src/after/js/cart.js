@@ -30,7 +30,7 @@ new Vue({
 				this.$set(item,'checked',true);
 			}else{
 				item.checked = !item.checked;
-			};
+			}
 			
 			//全部选中则全选点亮，相反
 			var checkAllFlags = true;
@@ -51,7 +51,7 @@ new Vue({
 				}
 			}else{
 				item.productQuantity++;
-			};
+			}
 			//计算总金额
 			this.calTotalMoney();
 		},
@@ -72,7 +72,7 @@ new Vue({
 					this.$set(item,'checked',this.allSelectBtn);
 				}else{
 					item.checked = this.allSelectBtn;
-				};
+				}
 			})
 			//计算总金额
 			this.calTotalMoney();

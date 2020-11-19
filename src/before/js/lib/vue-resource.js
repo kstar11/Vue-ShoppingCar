@@ -270,7 +270,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	    }, this);
 
 	    return transform(options);
-	};
+	}
 
 	/**
 	 * Url options.
@@ -1683,4 +1683,3 @@ return /******/ (function(modules) { // webpackBootstrap
 /***/ }
 /******/ ])
 });
-;

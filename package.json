@@ -4,11 +4,18 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "commit": "git-cz"
+    "commit": "git-cz",
+    "lint": "eslint src --fix",
+    "lint:create": "eslint --init"
   },
   "config": {
     "commitizen": {
       "path": "node_modules/cz-customizable"
+    }
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm run lint"
     }
   },
   "repository": {
@@ -22,7 +29,12 @@
   },
   "homepage": "https://github.com/kstar11/Vue-ShoppingCar#readme",
   "devDependencies": {
+    "@commitlint/cli": "^11.0.0",
+    "@commitlint/config-conventional": "^11.0.0",
     "commitlint-config-cz": "^0.13.2",
-    "cz-customizable": "^6.3.0"
-  }
+    "cz-customizable": "^6.3.0",
+    "eslint": "^7.13.0",
+    "husky": "^4.3.0"
+  },
+  "dependencies": {}
 }
