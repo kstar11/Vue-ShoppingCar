@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "commit": "git-cz",
-    "lint": "eslint src --fix",
+    "lint": "eslint --fix",
     "lint:create": "eslint --init"
   },
   "config": {
